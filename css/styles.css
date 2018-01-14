@@ -44,10 +44,16 @@ p {
 	margin-top: 0;
 }
 
-.header h2 {
+.header h2,
+.header h3 {
 	max-width: 80%;
 	margin: auto;
 	margin-top: 50px;
+}
+
+.header h3 {
+	margin-top: 15px;
+	margin-bottom: 50px;
 }
 
 
@@ -111,8 +117,26 @@ p {
 	BODY
 /**************************************/
 
+.container {
+	margin-left: 25px;
+}
+
+.container h5 {
+	font-size: 1.1em;
+}
+
+.gamertagText {
+	border: none;
+	border-bottom: 1px solid #000;
+	padding-left: 10px;
+}
+
 .step2 {
 	display: inline;
+}
+
+.spacer {
+	display: block;
 }
 
 .button-win,
@@ -122,8 +146,8 @@ p {
 	color: #fff;
 	font-weight: bold;
 	text-align: center;
-	margin: 5px;
-	float: left;
+	margin: 15px 5px 5px 5px;
+	display: inline-block;
 	padding-bottom: 20px;
 }
 
